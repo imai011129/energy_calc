@@ -7,6 +7,12 @@ h1 {
 
 }
 
+body {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
+
 input {
     width: 90%;
     margin: auto;
@@ -81,4 +87,11 @@ ul {
 #suggest div.over {
     /* マウスオーバ時のスタイル */
     background-color: #99CCFF;
+}
+
+tr td:first-child {
+    width: 150px;
+}
+tr td:last-child {
+    width: calc(100% - 300px);
 }
