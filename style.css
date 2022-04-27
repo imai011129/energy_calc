@@ -88,3 +88,10 @@ ul {
     /* マウスオーバ時のスタイル */
     background-color: #99CCFF;
 }
+
+tr td:first-child {
+    width: 150px;
+}
+tr td:last-child {
+    width: calc(100% - 300px);
+}
