@@ -40,11 +40,13 @@
         </table>
         <input type="button" onclick="search()" value="調べる">
     </form>
+    <p class="caution">マイナスの値は教科書でいうと()内の数字に相当するよ！</p>
+    <div class="result_table_container">
     <table class="result_table">
-        <p class="caution">マイナスの値は教科書でいうと()内の数字に相当するよ！</p>
         <tr class="result_names">
-            <td>エネルギー/kcal</td>
-            <td>たんぱく質/g</td>
+            <td>　</td>
+            <td>エネルギー</td>
+            <td>たんぱく質</td>
             <td>脂質</td>
             <td>炭水化物</td>
             <td>食物繊維</td>
@@ -89,6 +91,7 @@
             <td class="vitamin_c_result"></td>
         </tr>
     </table>
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="data.js"></script>

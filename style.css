@@ -8,7 +8,7 @@ h1 {
 }
 
 body {
-    max-width: 900px;
+    max-width: 1920px;
     width: 100%;
     margin: auto;
 }
@@ -19,8 +19,20 @@ input {
     height: 1.2rem;
 }
 
+.result_table_container  {
+    overflow: scroll;
+    width: 100vW;
+}
+
 .result_table {
+    margin: auto;
     margin-bottom: 3rem;
+    overflow: scroll;
+    width: 1280px;
+}
+
+.result_table td {
+    padding: .3rem;
 }
 
 .caution {
