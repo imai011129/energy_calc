@@ -31,6 +31,12 @@ input {
     width: 1280px;
 }
 
+.result_names > td {
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
 .result_table td {
     padding: .3rem;
 }
