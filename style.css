@@ -65,7 +65,7 @@ ul {
     position: absolute;
     background-color: #FFFFFF;
     border: 1px solid #CCCCFF;
-    width: 1000px;
+    width: 100vw;
     height: 200px;
     overflow: scroll;
 }
@@ -87,11 +87,4 @@ ul {
 #suggest div.over {
     /* マウスオーバ時のスタイル */
     background-color: #99CCFF;
-}
-
-tr td:first-child {
-    width: 150px;
-}
-tr td:last-child {
-    width: calc(100% - 300px);
 }
