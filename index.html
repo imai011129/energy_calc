@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>エネルギー価計算</title>
     <link rel="apple-touch-icon" sizes="312x312" href="./app-icon.jpeg">
@@ -16,23 +16,8 @@
 
 <body>
     <h1 class="top_text">エネルギー価計算</h1>
-    <!-- <form action="">
-        <div>
-            <label for="name">食品名を入力してね</label>
-            <br>
-            <input type="text" id="name" name="name" placeholder="アマランサス玄穀" onkeyup="inputCheck()" autocomplete="off">
-            <ul class="suggest_list">
-            </ul>
-        </div>
-        <div>
-            <label for="weight">重量を入力してね(単位:g)</label>
-            <br>
-            <input type="text" id="weight" name="weight" placeholder="100">
-        </div>
-        <input type="button" onclick="search()" value="調べる">
-    </form> -->
     <form>
-        <table>
+        <table class="table_entry">
             <tr>
                 <td>食品名を入力してね</td>
                 <td>
@@ -55,11 +40,11 @@
     <table class="result_table">
         <p class="caution">マイナスの値は教科書でいうと()内の数字に相当するよ！</p>
         <tr>
-            <td>エネルギー/kcal</td>
+            <td>エネルギー</td>
             <td class="energy_result"></td>
         </tr>
         <tr>
-            <td>たんぱく質/g</td>
+            <td>たんぱく質</td>
             <td class="protein_result"></td>
         </tr>
         <tr>

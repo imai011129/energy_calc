@@ -1,5 +1,5 @@
 * {
-    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Hachi Maru Pop', cursive;
 }
 
 h1 {
@@ -46,6 +46,10 @@ input[type="button"] {
 ul {
     padding: 0;
     margin: 0;
+}
+
+.table_entry {
+    margin: auto;
 }
 
 .suggest_item {
