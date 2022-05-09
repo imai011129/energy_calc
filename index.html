@@ -20,7 +20,7 @@
 <body>
     <h1 class="top_text">エネルギー価計算</h1>
     <form>
-        <table>
+        <table class="table_info">
             <tr>
                 <td>食品名を入力してね</td>
                 <td>重量を入力してね<br>(単位:g)</td>
@@ -28,13 +28,15 @@
             <tr>
                 <td>
                     <!-- 入力フォーム -->
-                    <input id="name" type="text" name="name" value="" autocomplete="off" size="30" style="display: block" placeholder="アマランサス玄穀">
+                    <input id="name" type="text" name="name" value="" autocomplete="off" size="30"
+                        style="display: block" placeholder="アマランサス玄穀">
                     <!-- 補完候補を表示するエリア -->
                     <div id="suggest" style="display:none;"></div>
                 </td>
                 <td>
                     <!-- 入力フォーム -->
-                    <input type="text" id="weight" name="weight" placeholder="100" value="" autocomplete="off" size="10" style="display: block">
+                    <input type="text" id="weight" name="weight" placeholder="100" value="" autocomplete="off" size="10"
+                        style="display: block">
                 </td>
             </tr>
         </table>
@@ -42,55 +44,56 @@
     </form>
     <p class="caution">マイナスの値は教科書でいうと()内の数字に相当するよ！</p>
     <div class="result_table_container">
-    <table class="result_table">
-        <tr class="result_names">
-            <td>　</td>
-            <td>エネルギー</td>
-            <td>たんぱく質</td>
-            <td>脂質</td>
-            <td>炭水化物</td>
-            <td>食物繊維</td>
-            <td>食塩総量</td>
-            <td>ナトリウム</td>
-            <td>カリウム</td>
-            <td>カルシウム</td>
-            <td>マグネシウム</td>
-            <td>リン</td>
-            <td>鉄分</td>
-            <td>レチノール</td>
-            <td>ビタミンD</td>
-            <td>α-トコフェロール</td>
-            <td>ビタミンK</td>
-            <td>ビタミンB1</td>
-            <td>ビタミンB2</td>
-            <td>ビタミンB12</td>
-            <td>葉酸</td>
-            <td>ビタミンC</td>
-        </tr>
-        <tr>
-            <td class="energy_result"></td>
-            <td class="protein_result"></td>
-            <td class="fat_result"></td>
-            <td class="carbohydrate_result"></td>
-            <td class="dietary_fiber_result"></td>
-            <td class="salt_result"></td>
-            <td class="na_result"></td>
-            <td class="k_result"></td>
-            <td class="ca_result"></td>
-            <td class="mg_result"></td>
-            <td class="p_result"></td>
-            <td class="fe_result"></td>
-            <td class="retinol_result"></td>
-            <td class="vitamin_d_result"></td>
-            <td class="alpha_tocopherol_result"></td>
-            <td class="vitamin_k_result"></td>
-            <td class="vitamin_b1_result"></td>
-            <td class="vitamin_b2_result"></td>
-            <td class="vitamin_b12_result"></td>
-            <td class="folic_acid_result"></td>
-            <td class="vitamin_c_result"></td>
-        </tr>
-    </table>
+        <table class="result_table">
+            <tr class="result_names">
+                <td>　</td>
+                <td>エネルギー</td>
+                <td>たんぱく質</td>
+                <td>脂質</td>
+                <td>炭水化物</td>
+                <td>食物繊維</td>
+                <td>食塩総量</td>
+                <td>ナトリウム</td>
+                <td>カリウム</td>
+                <td>カルシウム</td>
+                <td>マグネシウム</td>
+                <td>リン</td>
+                <td>鉄分</td>
+                <td>レチノール</td>
+                <td>ビタミンD</td>
+                <td>α-トコフェロール</td>
+                <td>ビタミンK</td>
+                <td>ビタミンB1</td>
+                <td>ビタミンB2</td>
+                <td>ビタミンB12</td>
+                <td>葉酸</td>
+                <td>ビタミンC</td>
+            </tr>
+            <tr>
+                <td class="name_result"></td>
+                <td class="energy_result"></td>
+                <td class="protein_result"></td>
+                <td class="fat_result"></td>
+                <td class="carbohydrate_result"></td>
+                <td class="dietary_fiber_result"></td>
+                <td class="salt_result"></td>
+                <td class="na_result"></td>
+                <td class="k_result"></td>
+                <td class="ca_result"></td>
+                <td class="mg_result"></td>
+                <td class="p_result"></td>
+                <td class="fe_result"></td>
+                <td class="retinol_result"></td>
+                <td class="vitamin_d_result"></td>
+                <td class="alpha_tocopherol_result"></td>
+                <td class="vitamin_k_result"></td>
+                <td class="vitamin_b1_result"></td>
+                <td class="vitamin_b2_result"></td>
+                <td class="vitamin_b12_result"></td>
+                <td class="folic_acid_result"></td>
+                <td class="vitamin_c_result"></td>
+            </tr>
+        </table>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
